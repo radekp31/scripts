@@ -2,7 +2,7 @@
 yt-dlp -F "<URL>"
 
 #Download and keep names
-youtube-dl -i --yes-playlist -o '/your/desired/path/%(title)s.%(ext)s' "<URL>"
+yt-dlp -i --yes-playlist -o '/your/desired/path/%(title)s.%(ext)s' "<URL>"
 
 #Select 720p
 yt-dlp -f "bv*[height=720]+ba" -o "/foo/bar/path/%(title)s.%(ext)s" "<URL>"
